@@ -1,0 +1,18 @@
+/* Navbar */
+@media only screen and (min-width: 256px) and (max-width: 991px) {
+  .navbar {
+    background-color: black !important;
+  }
+  .nav-sticky .logo {
+    color: #fff !important;
+  }
+  .nav-link {
+    color: white !important;
+    margin-left: 1em;
+    font-weight: 400;
+  }
+  .nav-link:hover {
+    color: #ff6348 !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

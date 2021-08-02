@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .container{
+     width: 90%;
+     margin: 10px auto;
+ }
+ 
+ .portofolio-menu{
+     text-align: center;
+ }
+ 
+ .portofolio-menu ul li{
+     display: inline-block;
+     margin: 0;
+     list-style: none;
+     padding: 10px 15px;
+     border: 1px solid tomato;
+     cursor: pointer;
+     -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+     -o-transition: all .5s ease;
+     transition: all .5s ease;
+ }
+ 
+ .portofolio-menu ul li:hover{
+     background: tomato;
+     color: #fff;
+ }
+ 
+ /* .portofolio-item{
+     width: 100%;
+ } */
+ /* .portofolio-item .item{
+     width: 303px;
+     float: left;
+     margin-bottom: 10px;
+ } */
+ 
+ li.active{
+     background: tomato;
+     color: #fff !important;
+ }
+ 
+ 
